@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ymyh233 · Natsume</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: #0f1020; color: #e8e8f0; line-height: 1.6; padding: 24px 16px 48px; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; padding: 48px 0 32px; }
+  header h1 { font-size: 28px; letter-spacing: 1px; }
+  header p { color: #9a9ab0; margin-top: 8px; font-size: 15px; }
+  .grid { display: grid; gap: 16px; }
+  .card { display: block; background: #1a1b30; border: 1px solid #2a2b45;
+          border-radius: 14px; padding: 20px; text-decoration: none; color: inherit; }
+  .card:hover { border-color: #7c6cff; }
+  .card h2 { font-size: 18px; }
+  .card h2 .tag { font-size: 12px; color: #8f7bff; border: 1px solid #8f7bff;
+                  border-radius: 20px; padding: 1px 8px; margin-left: 8px; vertical-align: 2px; }
+  .card h2 .tag.doing { color: #f5b942; border-color: #f5b942; }
+  .card p { color: #b9b9cc; font-size: 14px; margin-top: 6px; }
+  .card .links { margin-top: 10px; font-size: 13px; color: #8f7bff; }
+  .card .links a { margin-right: 14px; color: #8f7bff; text-decoration: none; }
+  footer { text-align: center; margin-top: 36px; color: #9a9ab0; font-size: 14px; }
+  footer a { color: #b9b9cc; margin: 0 10px; text-decoration: none; }
+  footer a:hover { color: #fff; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Natsume · 愿梦远航</h1>
+    <p>独立开发者，做小游戏和小工具。</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h2>知乎回答数据复盘助手 <span class="tag">知乎黑客松 S3 参赛作品</span></h2>
+      <p>粘贴知乎回答数据，生成复盘报告、诊断和改进建议。</p>
+      <div class="links"><a href="https://ymyh233.me/zhihu-answer-review-assistant/">在线体验 ↗</a><a href="https://github.com/piaoni233/zhihu-answer-review-assistant">GitHub ↗</a></div>
+    </div>
+
+    <a class="card" href="https://www.taptap.cn/app/1092708">
+      <h2>引力星核 <span class="tag">已上线 TapTap</span></h2>
+      <p>引力合成小游戏：11 级天体演化链，从宇宙尘埃一路合成到奇点黑洞。</p>
+      <div class="links"><span>TapTap ↗</span></div>
+    </a>
+
+    <div class="card">
+      <h2>小红书 Skill：笔记评论反馈闭环 / 笔记复盘 <span class="tag">华为开发者大赛作品</span></h2>
+      <p>把小红书笔记评论变成改稿清单，把发过的数据变成下一篇的复盘。</p>
+      <div class="links"><a href="https://skills.huaweicloud.com/community">华为云市场 ↗</a><a href="https://www.xiaohongshu.com/explore/6b0413fc000000002b012617">介绍笔记 ① ↗</a><a href="https://www.xiaohongshu.com/explore/6b04454b000000002b027215">介绍笔记 ② ↗</a></div>
+    </div>
+
+    <div class="card">
+      <h2>Codegeist 2026 <span class="tag doing">进行中 · 12 月 8 日开工</span></h2>
+      <p>Jira Risk &amp; Context Radar：给 Jira 做的风险与上下文雷达。</p>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://github.com/piaoni233">GitHub</a>
+    <a href="https://www.zhihu.com/pin/2108978153792328513">知乎</a>
+    <a href="https://www.taptap.cn/app/1092708">TapTap</a>
+    <a href="https://www.xiaohongshu.com/explore/6b0413fc000000002b012617">小红书</a>
+  </footer>
+</div>
+</body>
+</html>
